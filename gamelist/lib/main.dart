@@ -100,7 +100,7 @@ class GameApiInfo {
 class GameApiService {
   // Coloque sua API key do RAWG aqui:
   // Crie uma conta em https://rawg.io/apidocs e gere a key.
-  static const String _apiKey = '';
+  static const String _apiKey = '9d5b6ed5d1e94a9e9f7536389a4e4032';
 
   static Future<GameApiInfo?> fetchInfo(String query) async {
     if (_apiKey.isEmpty) return null;
